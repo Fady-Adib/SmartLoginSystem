@@ -1,0 +1,68 @@
+:root {
+    --mainColor: #24353F;
+    --secColor: RGB(23, 162, 184);
+    --textPlaceholderColor:rgb(156, 156, 156);
+}
+
+body {
+    background-color: var(--mainColor);
+}
+.logInForm{width: 60%;
+box-shadow: black 0 0 77px 3px;
+padding: 1rem 6rem;}
+h1 , h2 {
+    color: var(--secColor); 
+}
+
+.form-control::placeholder {
+
+    color: var(--textPlaceholderColor);
+}
+
+.form-control {
+
+    border: 1px white solid;
+    transition: all 0.3s;
+
+
+}
+
+.form-control:focus {
+    border-color: var(--secColor);
+    box-shadow: none;
+
+
+}
+
+.btn {
+    color: var(--secColor);
+    border: var(--secColor) solid 1px;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color: var(--secColor);
+    color: white;
+
+
+
+}
+.welcome{margin-bottom: 10rem;}
+
+
+
+/* START NAV BAR */
+/* END NAV BAR */
+/* START HOME SECTION */
+/* END HOME SECTION */
+/* START ABOUT SECTION */
+/* END ABOUT SECTION */
+/* START SERVICES SECTION */
+/* END SERVICES SECTION */
+/* START CLIENT SECTION */
+/* END CLIENT SECTION */
+/* START PORTFOLIO SECTION */
+/* END PORTFOLIO SECTION */
+/* START BLOG SECTION */
+/* END CONTACT SECTION */
+/* START FOOTER */
+/* END FOOTER */
